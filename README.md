@@ -2,8 +2,6 @@
 
 This project is a text-mode clone of the legendary endless runner game, developed from scratch for the MS-DOS environment using **16-bit x86 Assembly** language. The game is built entirely without any modern game engines or high-level libraries, relying completely on direct hardware port manipulation and BIOS/DOS interrupts.
 
-![In-Game Screenshot](insert_screenshot_link_here.jpg) *(Note: Don't forget to add a screenshot or GIF of your game here)*
-
 ## ✨ Features
 
 * **Text-Mode Graphics (Video Mode 0003h):** Retro visuals created with standard and extended ASCII characters on an 80x25 terminal screen.
@@ -26,16 +24,7 @@ This project is a text-mode clone of the legendary endless runner game, develope
 
 ## 🛠️ Installation & Execution
 
-This game is a 16-bit MS-DOS application. To run it on modern 64-bit operating systems, you will need an emulator such as [DOSBox](https://www.dosbox.com/).
+This game is a 16-bit MS-DOS application. To run it on modern 64-bit operating systems, you will need an emulator such as [Emu8086].
 
-### Requirements
-* DOSBox
-* An Assembly compiler: **MASM** (Microsoft Macro Assembler) or **TASM** (Turbo Assembler)
 
-### Compilation (TASM Example)
-Mount your source code directory inside DOSBox, navigate to it, and run the following commands sequentially:
 
-```assembly
-tasm dino.asm
-tlink dino.obj
-dino.exe
